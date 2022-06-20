@@ -40,7 +40,12 @@
         left: 4%;
         position: relative;
         transform: translate(-50%, -50%);
+    }
+    .logo:hover
+    {
+        position: relative;
         animation: miAnimation 1.5s infinite linear;
+        cursor: pointer;
     }
     @keyframes miAnimation {
         0%
